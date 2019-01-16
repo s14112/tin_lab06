@@ -1,0 +1,14 @@
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+}
+
+.inputField {
+    padding: 5px;
+}
+
+.errorLabel {
+    color: red;
+}
