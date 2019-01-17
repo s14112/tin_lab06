@@ -81,7 +81,6 @@ class Form extends React.Component {
             <form className="registrationForm" onSubmit={this.handleSubmit}>
                 <Label htmlFor='nickName' value='Nickname:' />
                 <input type="text" name="nickName" className="inputField" placeholder="nick" value={this.state.nickName} onChange={this.handleChange}></input>
-
                 <Label htmlFor='age' value='Your age:' />
                 <input type="number" name="age" className="inputField" placeholder="age" value={this.state.age} onChange={this.handleChange}></input>
                 <Label htmlFor='email' value='Your e-mail address:' />
